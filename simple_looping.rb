@@ -12,9 +12,10 @@ def loop_iterator(number_of_times)
   count = 1
   loop do
     puts phrase
-    if count > number_of_times
+    if count == number_of_times
       break
     end
+    count += 1
   end
 end
 

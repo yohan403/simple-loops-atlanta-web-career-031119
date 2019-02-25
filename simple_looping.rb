@@ -19,7 +19,6 @@ def loop_iterator(number_of_times)
   end
 end
 
-loop_iterator(5)
 
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
